@@ -62,4 +62,10 @@ public class Book {
 		 return editor;
 	 }
 	
+	 
+	 @Override
+	public String toString() {
+		 
+		return "Titolo: " + title + " | Autore: " + author + " | N° pagine: " + numPages; 
+	}
 }
